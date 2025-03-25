@@ -172,3 +172,23 @@ nav {
     justify-content: center;
     font-weight: bold;
 }
+
+.switch-container {
+    margin-top: 10px;
+}
+
+/* Save button styling */
+#saveButton {
+    display: block;
+    margin-top: 20px;                           /* Set top margin to 20px */
+    padding: 10px 20px;                         /* Add 10px of padding to top and bottom (first value) and 0px of padding to the left and right (second value) of container */
+    font-size: 16px;                            /* Set font size to 16px */
+    background-color: #008CBA;                  /* Blue */
+    color: white;                               /* Change font color to white */
+    border: none;                               /* Remove border */
+    cursor: pointer;                            /* Change cursor to pointer so user knows it's clickable */
+    border-radius: 5px;                         /* Round the corners of the button */
+}
+    #saveButton:hover {                         /* Hover effect for the save button */
+        background-color: #005f73;              /* Darker blue */
+    }
