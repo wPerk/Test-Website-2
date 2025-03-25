@@ -1,5 +1,5 @@
 <!DOCTYPE html>					                                            <!-- <!doctype html> is the shortest string of characters that counts as a valid doctype-->
-<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">					<!-- Wraps all the content on the page. It is also known as the root element-->
+<html lang="en-US">					<!-- Wraps all the content on the page. It is also known as the root element-->
     <head>					                                                <!-- Acts as a container for everything on the HTML page that is shown to viewers-->
         <meta charset="UTF-8">		                                    <!-- Represents metadata that can’t be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +36,37 @@
 
         <main class="main-content">
             <h2>Page 2</h2>
-            
+            <div class="switch-container">
+                <div id="container7" class="container">Container 7</div>
+                <div id="container8" class="container">Container 8</div>
+                <div id="container9" class="container">Container 9</div>
+                <hr />
+                <div class="settings-container">
+                    <div class="toggle-container">
+                        <span class="toggle-label">Enable Alternate State for Container 7</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="switch7">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="toggle-container">
+                        <span class="toggle-label">Enable Alternate State for Container 8</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="switch8">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="toggle-container">
+                        <span class="toggle-label">Enable Alternate State for Container 9</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="switch9">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <hr />
+                </div>
+            </div>
+            <button id="saveButton">Save Settings</button>
         </main>
 
         <footer>
