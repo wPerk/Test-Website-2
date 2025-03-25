@@ -190,7 +190,8 @@ nav {
 }
 
 .toggle-label {
-    margin: 20px;
+    margin-left: 20px;
+    /*margin: 20px;*/
 }
 
 .toggle-switch {
