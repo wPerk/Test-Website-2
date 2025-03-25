@@ -192,3 +192,26 @@ nav {
     #saveButton:hover {                         /* Hover effect for the save button */
         background-color: #005f73;              /* Darker blue */
     }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .progress-bar {
+        height: 3px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
