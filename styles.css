@@ -186,7 +186,7 @@ nav {
 }
 
 .toggle-container {
-    margin: 10px;
+    margin: 0px 10px 10px 10px;           /* top, right, bottom, left */
 }
 
 .toggle-label {
