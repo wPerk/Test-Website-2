@@ -164,7 +164,7 @@ nav {
 .container {
     width: 200px;
     height: 100px;
-    margin: 10px;
+    margin: 10px 20px;
     background-color: white;
     border: 1px solid black;
     display: flex;
@@ -174,13 +174,39 @@ nav {
 }
 
 .switch-container {
-    margin-top: 10px;
+    margin: 10px;
+}
+
+.settings-contianer {
+    margin: 10px;
+}
+
+.toggle-container {
+    margin: 10px;
+}
+
+.toggle-label {
+    margin: 10px;
+}
+
+.toggle-switch {
+    margin: 10px;
+}
+
+input[type="checkbox"] {
+    float: right;                               /* Align checkboxes to the right */
+    margin-right: 10px;                         /* Adjust margin as needed */
+    margin-top: 5px;                            /* Vertical alignment adjustment */
+}
+
+hr {
+    margin: 20px 15px;                          /* Add 20px space to top and bottom, and 15px to left and right */
 }
 
 /* Save button styling */
 #saveButton {
     display: block;
-    margin-top: 20px;                           /* Set top margin to 20px */
+    margin: 10px 20px;                          /* Set top and margin to 10px, and left and right margin to 20px */
     padding: 10px 20px;                         /* Add 10px of padding to top and bottom (first value) and 0px of padding to the left and right (second value) of container */
     font-size: 16px;                            /* Set font size to 16px */
     background-color: #008CBA;                  /* Blue */
@@ -192,3 +218,4 @@ nav {
     #saveButton:hover {                         /* Hover effect for the save button */
         background-color: #005f73;              /* Darker blue */
     }
+
