@@ -164,7 +164,7 @@ nav {
 .container {
     width: 200px;
     height: 100px;
-    margin: 10px 20px;
+    margin: 20px 40px;
     background-color: white;
     border: 1px solid black;
     display: flex;
@@ -179,6 +179,10 @@ nav {
 
 .settings-contianer {
     margin: 10px;
+}
+
+.content-contianer {
+    margin: 10px 20px;
 }
 
 .toggle-container {
