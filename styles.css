@@ -186,7 +186,7 @@ nav {
 }
 
 .toggle-label {
-    margin: 10px;
+    margin: 20px;
 }
 
 .toggle-switch {
@@ -195,7 +195,7 @@ nav {
 
 input[type="checkbox"] {
     float: right;                               /* Align checkboxes to the right */
-    margin-right: 10px;                         /* Adjust margin as needed */
+    margin-right: 20px;                         /* Adjust margin as needed */
     margin-top: 5px;                            /* Vertical alignment adjustment */
 }
 
