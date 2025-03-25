@@ -1,3 +1,4 @@
+// JavaScript source code
 // JavaScript for interactive navigation menu and settings persistence
 document.addEventListener("DOMContentLoaded", function () {
     // Get the menu icon and dropdown list
@@ -7,7 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const switches = [
         { id: "switch1", container: "container1", color: "red" },
         { id: "switch2", container: "container2", color: "blue" },
-        { id: "switch3", container: "container3", color: "green" }
+        { id: "switch3", container: "container3", color: "green" },
+
+        { id: "switch4", container: "container4", color: "white" },
+        { id: "switch5", container: "container5", color: "white" },
+        { id: "switch6", container: "container6", color: "white" },
+
+        { id: "switch7", container: "container7", color: "white" },
+        { id: "switch8", container: "container8", color: "white" },
+        { id: "switch9", container: "container9", color: "white" }
     ];
 
     // Load settings from localStorage
